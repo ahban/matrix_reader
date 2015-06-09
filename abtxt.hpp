@@ -72,7 +72,8 @@ int read_from_txt(
 		data.clear();
 		return 1;
 	}
-
+	
+	in_file.clear();
 	// read the remaining data and stored into a vector.
 	in_file.seekg(ifstream::beg);
 	num_rows = 0;
